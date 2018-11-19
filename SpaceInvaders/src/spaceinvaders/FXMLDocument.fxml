@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" onMouseMoved="#mouseMoved" prefHeight="758.0" prefWidth="849.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="spaceinvaders.FXMLDocumentController">
+   <children>
+      <ImageView fx:id="mainSpaceShip" fitHeight="128.0" fitWidth="126.0" layoutX="362.0" layoutY="611.0" onMouseClicked="#mouseClickedShoot" pickOnBounds="true">
+         <image>
+            <Image url="file:/M:/Program%20Files%20(x86)/Programming%20Apps/SpaceInvaders/assets/images/LogoArtboard%201.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="MouseXvalue" layoutX="335.0" layoutY="75.0" prefHeight="63.0" prefWidth="139.0" text="X-Coordinates" />
+   </children>
+   
+   
+</AnchorPane>
